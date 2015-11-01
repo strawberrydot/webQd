@@ -62,8 +62,8 @@
 	返回所有子节点：node.childNodes（包含文本节点及标签节点）,node.children 
 	返回第一个子节点：node.firstChild 
 	返回最后一个子节点： node.lastChild 
-	返回同属上一个子节点：node.nextSibling 
-	返回同属下一个子节点：node.previousSibling 
+	返回同属上一个子节点：node.previousSibling
+	返回同属下一个子节点：node.nextSibling  
 	parentNode和parentElement功能一样，childNodes和children功能一样。但是parentNode和
 	childNodes是符合W3C标准的，可以说比较通用。而另外两个只是IE支持，不是标准，Firefox就不支持 
 	,所以大家只要记得有parentElement和children就行了 
