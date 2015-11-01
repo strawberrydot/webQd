@@ -78,7 +78,7 @@
 	    appendChild()
 	    removeChild()
 	    replaceChild()
-	    insertBefore()
+	    insertBefore(要插入的节点，作为参照的节点)
 	（3）查找
 	    getElementsByTagName()    //通过标签名称
 	    getElementsByName()    //通过元素的Name属性的值
